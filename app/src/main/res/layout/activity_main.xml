@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:text="Emergency Services BD"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="about"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/servicesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:gravity="center_horizontal"
+        android:text="services"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="get contact"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/holo_green_light"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>

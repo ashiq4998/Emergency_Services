@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="clip_vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:text="Contact Info"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="98dp"
+        android:gravity="clip_vertical"
+        android:text="DMC: 0255165088"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="150dp"
+        android:gravity="clip_vertical"
+        android:text="SSMC: 0257315076"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="250dp"
+        android:gravity="clip_vertical"
+        android:text="FSCD: 01730002226"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="302dp"
+        android:gravity="clip_vertical"
+        android:text="BFSC: 029555555"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="402dp"
+        android:gravity="clip_vertical"
+        android:text="TPS: 01713373181"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="11dp"
+        android:layout_y="452dp"
+        android:gravity="clip_vertical"
+        android:text="DMT: 028631941"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back2Button"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_x="136dp"
+        android:layout_y="610dp"
+        android:background="@android:color/holo_green_light"
+
+        android:text="Back to main"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

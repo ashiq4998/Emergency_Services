@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SecondActivity">
+
+
+    <TableRow
+
+        android:id="@+id/titleRow"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Info"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/optionRow"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Type"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Name"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Location"
+            android:layout_height="30dp"
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/hospitalRow"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Hospital"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="DMC"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="19sp"
+            android:text="Secretariat Rd,Dhaka"
+            android:layout_height="30dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/hospital2Row"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text=""
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="SSMC"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Mitford Rd,Dhaka"
+            android:layout_height="30dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/firestationRow"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Firestation"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="FSCD"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Tejgaon,Dhaka"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/firestation2Row"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text=""
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="BFSC"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Mirpur Rd,Dhaka"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/policestationRow"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="PoliceStation"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="TPS"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Tejgaon,Dhaka"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/policestation2Row"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text=""
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="DMt"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="Dhanmondi,Dhaka"
+            android:layout_height="30dp"
+            />
+
+
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/back1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="Back to main"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</TableLayout>
